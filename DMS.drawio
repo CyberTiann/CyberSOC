@@ -286,17 +286,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="M5nA97plBVjXPE4wLchM-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M5nA97plBVjXPE4wLchM-23" target="M5nA97plBVjXPE4wLchM-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="M5nA97plBVjXPE4wLchM-23" value="Uploaded files are for approval of the WG_Admin" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1560" y="695" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="M5nA97plBVjXPE4wLchM-28" value="FULL DMS CONTROL" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1385" y="185" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M5nA97plBVjXPE4wLchM-34" value="Can UPLOAD, VIEW, EDIT, APPROVE uploads&lt;div&gt;&lt;br&gt;&lt;div&gt;Can CREATE new users. EDIT user info, ASSIGN permisisons&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Can CREATE subdirectories&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Can VIEW ALL system logs including&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="M5nA97plBVjXPE4wLchM-34" value="Can UPLOAD, VIEW, EDIT, APPROVE uploads&lt;div&gt;&lt;br&gt;&lt;div&gt;Can CREATE new users. EDIT user info, ASSIGN permisisons&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;Can CREATE subdirectories&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Can VIEW logs&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="220" width="215" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="M5nA97plBVjXPE4wLchM-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M5nA97plBVjXPE4wLchM-35" target="M5nA97plBVjXPE4wLchM-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M5nA97plBVjXPE4wLchM-35" value="If WG_STAFF uploads a new file, WG_ADMIN can view, edit, remove and approve the upload" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1168.5" y="405" width="153" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="M5nA97plBVjXPE4wLchM-39" value="Mark file upload as APPROVED ✅" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="635" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5nA97plBVjXPE4wLchM-41" value="Newly uploaded files are automatically marked as ❌ or NOT APPROVED" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1835" y="705" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
