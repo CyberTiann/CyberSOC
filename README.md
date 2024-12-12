@@ -1,42 +1,59 @@
 # CyberTIAN
-# Brute Force
-Gobuster - bruteforcing URI, DNS subdomain, Virtual Host, Amazon s3 buckets, google Cloud buckets
-OWASP ZAP - bruteforcing web-app
-Burp suite - bruteforce web app authentication
 
-# Password Bruteforce
-John the Ripper - Offline Password Cracking
-Hashcat - GPU based password recovery
-Hydra - bruteforcing remote auth protocols
-Medusa - large scale bruteforcing like hydra
+## Brute Force Tools
+### URI, DNS Subdomain, Virtual Host, and Cloud Bucket Brute Forcing
+- **Gobuster**: Brute-forcing URI, DNS subdomains, virtual hosts, Amazon S3 buckets, and Google Cloud buckets.
 
-# SSH Bruteforce
-Patator - SSH FTP HTTP
-THC Hydra - SSH
-Brutespray - Automates NMAP Results
+### Web Application Brute Forcing
+- **OWASP ZAP**: Brute-forcing web applications.
+- **Burp Suite**: Brute-forcing web app authentication.
 
-# Wireless Password Cracking
-Aircrack-ng - Cracking WEP and WPA
-Reaver - Targets WPS vulnerabilities
-Wifite - Automated wifi cracking
+## Password Brute Force Tools
+- **John the Ripper**: Offline password cracking.
+- **Hashcat**: GPU-based password recovery.
+- **Hydra**: Brute-forcing remote authentication protocols.
+- **Medusa**: Large-scale brute-forcing, similar to Hydra.
 
-# DNS Brute Forcing
-DNSRecon - bruteforcing DNS subdomains
+## SSH Brute Force Tools
+- **Patator**: Brute-forcing SSH, FTP, and HTTP.
+- **THC Hydra**: SSH brute-forcing.
+- **Brutespray**: Automates brute-forcing using Nmap results.
 
-# HOME NETWORK VULNERABILITY SCAN - TENABLE NESSUS
-username: Shinzer
-password: Aoki122501-
-port: 8834
+## Wireless Password Cracking Tools
+- **Aircrack-ng**: Cracking WEP and WPA encryption.
+- **Reaver**: Exploits WPS vulnerabilities.
+- **Wifite**: Automated Wi-Fi cracking.
 
-1. New Scan
-2. Basic Network Scan
-3. Run Scan
+## DNS Brute Forcing Tools
+- **DNSRecon**: Brute-forcing DNS subdomains.
 
-# CVE Database
-1. NVD - National Vulnerability DB
-2. CVE Details
-3. MITRE CVE
+## Home Network Vulnerability Scanning with Tenable Nessus
+1. Navigate to the Nessus portal at port `8834`.
+2. Use the following credentials:
+   - **Username**: `Shinzer`
+   - **Password**: `Aoki122501-`
+3. Steps:
+   - Create a **New Scan**.
+   - Select **Basic Network Scan**.
+   - Run the scan.
 
-# Testing
-1. Black box - no info
-2. White box - full disclosure
+## CVE Databases
+- **NVD (National Vulnerability Database)**: Comprehensive list of vulnerabilities.
+- **CVE Details**: Detailed CVE reports.
+- **MITRE CVE**: Official CVE records.
+
+## Testing Methodologies
+1. **Black Box Testing**: No prior information about the target.
+2. **White Box Testing**: Full disclosure of target information.
+
+## Penetration Testing Methodology
+1. **Scanning the Target Using Nmap**
+   - Commands:
+     - `nmap <IP address>`: Basic scan.
+     - `-sV`: Detect service versions.
+     - `-O`: Check the operating system.
+     - `-p1-65535`: Scan all ports.
+   - Complete Command:  
+     ```bash
+     sudo nmap 192.168.0.114 -sV -O -p1-65535
+     ```
